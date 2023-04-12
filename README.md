@@ -16,6 +16,8 @@ Copy the downloaded .jar file to the plugins directory of your Minecraft server.
 Restart the server.
 AutoUpdateViaVersion does not require any configuration or setup. Once installed, it will automatically update ViaVersion to the most recent successful build whenever the server starts.
 
+# Note
+Please be aware that this plugin currently needs the server to be started twice—once to install the plugin and again to actually load it. I am, however, working on a different approach to enable the plugin to install and function with just one server restart.
 
 # License
 AutoUpdateViaVersion is released under the MIT License. See the LICENSE file for more information.
