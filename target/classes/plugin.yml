@@ -1,0 +1,7 @@
+name: AutoUpdateViaVersion
+version: '1.0-SNAPSHOT'
+main: autoupdateviaversion.autoupdateviaversion.AutoUpdateViaVersion
+api-version: 1.18
+load: STARTUP
+authors: [ NewAmazingPVP ]
+description: A plugin that automatically updates ViaVersion to the latest succesful build
