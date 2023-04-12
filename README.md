@@ -7,7 +7,11 @@ AutoUpdateViaVersion is a plugin for Minecraft servers that automatically update
 - Automatically downloads successful builds of ViaVersion from Jenkins.
 
 # Planned Features
-- At the moment, there are no planned features for future releases of AutoUpdateViaVersion. However, if you have a suggestion or feature request, please create a new issue in the project's GitHub repository.
+- Allow users to choose between if they want to install the latest ViaVersion or ViaVersion-dev builds (for stability)
+
+- Allow plugins dependent on ViaVersion such as ViaBackwards, ViaRewind, etc. to properly enable on the first restart (it works currently but needs two restarts)
+
+- This is not all, if you have a suggestion or feature request, please create a new issue in the project's GitHub repository.
 
 # Installation
 
