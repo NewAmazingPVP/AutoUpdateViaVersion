@@ -18,7 +18,7 @@ Make sure ViaVersion is not already installed because it will automatically do t
 AutoUpdateViaVersion does not require any configuration or setup. Once installed, it will automatically update ViaVersion to the most recent successful build whenever the server starts.
 
 # Note
-If you have plugins that are dependent on ViaVersion such as ViaBackwards or ViaRewind you need to restart the server 2 times to get them properly initialized when new Version of ViaVersion is released. I am working on a fix for this so stay updated
+If you have plugins that are dependent on ViaVersion, such as ViaBackwards or ViaRewind, you need to restart the server twice to get them properly initialized when a new version of ViaVersion is released. I am working on a fix for this, so stay updated.
 
 # License
 AutoUpdateViaVersion is released under the MIT License. See the LICENSE file for more information.
