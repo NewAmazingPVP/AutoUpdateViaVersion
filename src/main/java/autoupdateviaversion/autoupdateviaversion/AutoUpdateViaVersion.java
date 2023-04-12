@@ -68,6 +68,8 @@ public final class AutoUpdateViaVersion extends JavaPlugin {
         } catch (InvalidPluginException | InvalidDescriptionException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     private String getLatestVersion() throws IOException {
