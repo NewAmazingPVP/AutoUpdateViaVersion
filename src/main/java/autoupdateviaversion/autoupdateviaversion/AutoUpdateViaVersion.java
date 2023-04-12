@@ -1,5 +1,8 @@
 package autoupdateviaversion.autoupdateviaversion;
 
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -37,6 +40,15 @@ public final class AutoUpdateViaVersion extends JavaPlugin {
         }
 
         getLogger().info("Successfully downloaded latest version of ViaVersion to " + outputFilePath);
+        
+        // Disable and enable ViaVersion to load the new version
+        PluginManager pluginManager = Bukkit.getPluginManager();
+        Plugin viaVersionPlugin = pluginManager.getPlugin("ViaVersion");
+        if (viaVersionPlugin != null) {
+            pluginManager.disablePlugin(viaVersionPlugin);
+            pluginManager.enablePlugin(viaVersionPlugin);
+            getLogger().info("Enabled new version of ViaVersion.");
+        }
     }
 
     private String getLatestVersion() throws IOException {
