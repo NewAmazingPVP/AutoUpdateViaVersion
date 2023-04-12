@@ -1,5 +1,7 @@
 # AutoUpdateViaVersion
-AutoUpdateViaVersion( is a plugin for Minecraft servers that automatically updates the ViaVersion plugin to the most recent successful build. [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) is a Bukkit plugin that allows players using different Minecraft versions to play together on the same server.
+AutoUpdateViaVersion is a plugin for Minecraft servers that automatically updates the ViaVersion plugin to the most recent successful build. 
+
+Spigot link: https://www.spigotmc.org/resources/autoupdateviaversion.109224/
 
 # Current Features
 - Compatible with Minecraft versions 1.8 and higher, including the latest versions.
@@ -26,5 +28,3 @@ If you have plugins that are dependent on ViaVersion, such as ViaBackwards or Vi
 
 # License
 AutoUpdateViaVersion is released under the MIT License. See the LICENSE file for more information.
-
-Spigot link: https://www.spigotmc.org/resources/autoupdateviaversion.109224/
