@@ -1,7 +1,7 @@
 name: AutoUpdateViaVersion
-version: '${project.version}'
+version: 1.0
 main: autoupdateviaversion.autoupdateviaversion.AutoUpdateViaVersion
 api-version: 1.18
 load: STARTUP
 authors: [ NewAmazingPVP ]
-description: A plugin that automatically updates ViaVersion to the latest succesful build
+description: A plugin that automatically updates ViaVersion to the latest successful build
