@@ -1,3 +1,6 @@
+# Note
+- I have officially stopped working on this plugin and instead am working on this new feature-rich plugin, [AutoViaUpdater](https://github.com/NewAmazingPVP/AutoViaUpdater). This new plugin automates the updating of all the Vias, such as ViaVersion, ViaRewind, ViaBackwards, and ViaRewind-Legacy, all-together.
+
 # AutoUpdateViaVersion
 AutoUpdateViaVersion is a plugin for Minecraft servers that automatically updates the ViaVersion plugin to the most recent successful build. 
 
